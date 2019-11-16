@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background-size: cover;
+    background: url(../../img/bj.png) no-repeat;
+}
+.all{
+    width:100%;
+    height:auto;
+}
+.head{
+    width:100%;
+    height: auto;
+}
+.contain{
+    
+    width:75%;
+    height:8rem;
+    background-color: #fff;
+    position: absolute;
+    bottom: 1.5rem;
+    left:0;
+    right:0;
+    margin: auto;
+}
