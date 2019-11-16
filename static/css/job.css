@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background-size: cover;
+    background: url(../../img/bj.png) no-repeat;
+
+}
+html,body{
+    height: 100%;
+    position: relative;
+}
+.all{
+    width:100%;
+    height:auto;
+}
+.background{
+    position: relative;
+    width: 3.3rem;
+    height: 3.3rem;
+    left: 0;
+    right:0;
+    margin: auto;
+}
+.yuan{
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    /*background-color: #FBAB00;*/
+    position: absolute;
+    margin:auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+}
