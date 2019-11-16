@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    position: relative;
+}
+.left{
+    width: 70%;
+    height:100%;
+    background:url("../../img/left.jpg") no-repeat center;
+}
+.right{
+    width: 60%;
+    height:100%;
+    background-color: white;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.title{
+    display: flex;
+    margin:2rem 0 0 1.5rem;
+}
+.text1{
+    font-size: 2rem;
+    margin: 3rem 0 0 1.5rem;
+    color: #FBB51F;
+}
+.text2{
+    margin-left: 1.5rem;
+    color: #FBB51F;
+}
+.text3{
+    font-size: 1rem;
+    margin-left: 0.3rem;
+}
+.blackbox{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.textbox{
+    border-bottom: 0.1rem solid black;
+    width: 9.8rem;
+    margin-left: 0.3rem
+}
