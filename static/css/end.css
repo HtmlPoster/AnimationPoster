@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background-size: cover;
+    background: url(../../img/bj.png) no-repeat;
+
+}
+html,body{
+    height: 100%;
+    position: relative;
+}
+.all{
+    width:100%;
+    height:auto;
+}
+.hezi{
+    width:5rem;
+    height: 5rem;
+    opacity: 0.9;
+    background-color: white;
+    margin: 0.5rem auto;
+    position: relative;
+    
+}
+.erweima{
+    width:2.5rem;
+    height: 2.5rem;
+    /* background-color: turquoise; */
+    padding-top: 0.4rem;
+    /* position:absolute;
+    top: 0.3rem;
+    left: 0;
+    right: 0; */
+    margin: auto;
+}
+.call{
+    padding-left: 1.2rem;
+    padding-top: 0.3rem;
+    width:auto;
+    height:auto;
+    
+    
+    font-size: 0.3rem;
+    color: #FBAB00;
+}
