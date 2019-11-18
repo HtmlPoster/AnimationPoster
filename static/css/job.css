@@ -3,18 +3,11 @@
     margin: 0;
     list-style: none;
 }
-body{
-    background-size: cover;
-    background: url(../../img/bj.png) no-repeat;
-
-}
-html,body{
-    height: 100%;
-    position: relative;
-}
 .all{
     width:100%;
-    height:auto;
+    height: 100%;
+    background-size: cover;
+    background: url(../../img/bj.png) no-repeat;
 }
 .background{
     position: relative;
