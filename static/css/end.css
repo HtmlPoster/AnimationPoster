@@ -3,18 +3,11 @@
     margin: 0;
     list-style: none;
 }
-body{
-    background-size: cover;
-    background: url(../../img/bj.png) no-repeat;
-
-}
-html,body{
-    height: 100%;
-    position: relative;
-}
 .all{
     width:100%;
-    height:auto;
+    height:100%;
+    background-size: cover;
+    background: url(../../img/beijing.png) no-repeat;
 }
 .hezi{
     width:5rem;
@@ -36,13 +29,11 @@ html,body{
     right: 0; */
     margin: auto;
 }
-.call{
-    padding-left: 1.2rem;
-    padding-top: 0.3rem;
-    width:auto;
-    height:auto;
-    
-    
+.call5{
+    margin: 0.5rem auto;
+    width:3.5rem;
+    height:2rem;
+    text-align: left;
     font-size: 0.3rem;
     color: #FBAB00;
 }
