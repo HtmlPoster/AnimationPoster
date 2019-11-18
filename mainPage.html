@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./static/css/swiper.min.css">
+    <script src="./static/js/rem.js"></script>
+    <link rel="stylesheet" href="./static/css/first.css">
+    <link rel="stylesheet" href="./static/css/second.css">
+    <link rel="stylesheet" href="./static/css/animate.css">
+
+    <!-- Demo styles -->
+    <style>
+        html, body {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        body {
+          background: #eee;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color:#000;
+          margin: 0;
+          padding: 0;
+        }
+        .swiper-container {
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+
+          /* Center slide text vertically */
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          -webkit-align-items: center;
+          align-items: center;
+        }
+    </style>
+</head>
+<body>
+  <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="bgimg">
+                    <div class="titlebox">
+                        <div class="title ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.3s">招</div>
+                        <div class="title" style="height:1rem;line-height:0.8rem;">
+                            <img src="./img/xian.png" alt="" class="xianimg ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.3s">
+                        </div>
+                        <div class="title ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.3s">聘</div>
+                    </div>
+                    <div class="waitbox">
+                        <p class="waittext ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="1s">等你来</p>
+                        <p class="waittext2 ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="1.5s">WAITING FOR YOU</p>
+                    </div>
+                    <div class="jiaobox">
+                        <img src="./img/1.png" alt="" class="lefttop ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="2s">
+                        <img src="./img/2.png" alt="" class="righttop ani" swiper-animate-effect="fadeInDown" swiper-animate-delay="2s">
+                        <img src="./img/3.png" alt="" class="leftbottom ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="2s">
+                        <img src="./img/4.png" alt="" class="rightbottom ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="2s">
+                        <p class="santext ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="2.5s">寻找那颗最亮的星</p>
+                        <p class="santext ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="2.7s">只要你够出色</p>
+                        <p class="santext ani" swiper-animate-effect="fadeInUp" swiper-animate-delay="2.9s">我们就会传播你的光芒</p>
+                    </div>
+                    <div class="mbox">
+                        <div class="fbox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.2s">设计</div>
+                        <div class="fbox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.4s">开发</div>
+                        <div class="fbox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.6s">前台</div>
+                        <div class="fbox ani" swiper-animate-effect="rotateIn" swiper-animate-delay="3.8s">管理</div>
+                    </div>
+                    <div class="logobox ani" swiper-animate-effect="fadeIn" swiper-animate-delay="4s">
+                        <img src="./img/logo.gif" alt="" class="logo">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="all">
+                    <div class="head ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="1s">
+                        <img src="./img/header.jpg" alt="" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="contain ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="3s" style="padding:0.1rem;">
+                        <p class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="2s" style="font-size:0.7rem;text-align: center;color:#FBAB00;">企业简介</p>
+                        <p class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="2.5s" style="font-size:0.35rem;text-align: center;color:#FBAB00;">INTRODUCTION</p>
+                        <div class="ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1.5s" swiper-animate-delay="3s">
+                            <p style="font-size: 0.3rem;padding:0.15rem 0.5rem;line-height: 0.5rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;优逸客成立于2013年，由国内顶尖的互联网技术专家共同发起成立，是我国100家“大众创业、万众创新”重点扶持机构之一，被教育部授予“三网融合人才培养中心”；是教育部公示产学合作、协同育人合作单位。”</p>
+                            <p style="font-size: 0.3rem;padding:0 0.5rem;line-height: 0.5rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;企业文化：专注、极致、口碑</p>
+                            <p style="font-size: 0.3rem;padding:0 0.5rem;line-height: 0.5rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;企业理念：尚德、奋进、执行</p>
+                            <p style="font-size: 0.3rem;padding:0 0.5rem;line-height: 0.5rem;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;企业愿景：成为顶尖的互联网人才孵化企业</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                Slide 3
+            </div>
+            <div class="swiper-slide">
+                Slide 4
+            </div>
+            <div class="swiper-slide">
+                Slide 5
+            </div>
+            <div class="swiper-slide">
+                Slide 6
+            </div>
+            <div class="swiper-slide">
+                Slide 7
+            </div>
+            <div class="swiper-slide">
+                Slide 8
+            </div>
+            <div class="swiper-slide">
+                Slide 9
+            </div>
+            <div class="swiper-slide">
+                Slide 10
+            </div>
+        </div>
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="./static/js/swiper.min.js"></script>
+  <script src="static/js/swiper.animate1.0.3.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+        on:{
+      init: function(){
+        swiperAnimateCache(this); //隐藏动画元素
+        swiperAnimate(this); //初始化完成开始动画
+      },
+      slideChangeTransitionEnd: function(){
+        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+        //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+      }
+    }
+    });
+  </script>
+</body>
+</html>
